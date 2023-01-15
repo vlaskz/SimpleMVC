@@ -7,8 +7,11 @@ public class BananaController : Controller
 {
     //
     // GET: /Banana/
-    public IActionResult Index(string name, int eatenBananas=1)
+    public IActionResult Index(string researcher, int species=1)
     {
+        ViewData["Researcher"] = researcher;
+        ViewData["Species"] = species;
+
         return View();
     }
 

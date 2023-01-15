@@ -1,7 +1,16 @@
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Banana Species";
 }
 
-<h2>Index</h2>
+<h2>Banana Species</h2>
 
 <p> Coma Banana! Proteja-se das cãibras</p>
+
+<ul>
+    @for(int i=0;i<(int)ViewData["Species"]!;i++)
+    {
+        <li>
+            @($"Banana code:{i}, Researcher {ViewData["Researcher"]}")
+        </li>
+    }
+</ul>
