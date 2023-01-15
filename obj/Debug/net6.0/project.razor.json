@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/vlaskz/Projects/SimpleMVC/Views/Banana/Index.cshtml",
+      "TargetPath": "Views\\Banana\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/vlaskz/Projects/SimpleMVC/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

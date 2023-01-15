@@ -7,9 +7,9 @@ public class BananaController : Controller
 {
     //
     // GET: /Banana/
-    public string Index(string name, int eatenBananas=1)
+    public IActionResult Index(string name, int eatenBananas=1)
     {
-        return HtmlEncoder.Default.Encode($"My name is {name} and I ate {eatenBananas} because bananas Have Potassium. Eat it now you too!");
+        return View();
     }
 
     //
